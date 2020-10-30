@@ -10,9 +10,9 @@ import { ThemeContext } from '../contexts/ThemeContext';
         return (
             <div  className="book-list" style={{ color: theme.text, background: theme.bg }}>
                 <ul>
-                    <li>Misery</li>
-                    <li>IT</li>
-                    <li>LOTR</li>
+                    <li style={{ background: theme.ui }}>Misery</li>
+                    <li style={{ background: theme.ui }}>IT</li>
+                    <li style={{ background: theme.ui }}>LOTR</li>
                 </ul>
             </div>
         )
